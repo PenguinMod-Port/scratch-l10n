@@ -64,10 +64,6 @@ jobs:
         with:
           name: built-locales
           path: locales/
-
-      - name: debug
-        run: |
-          ls
       
       - name: Commit
         uses: EndBug/add-and-commit@v9.1.1
